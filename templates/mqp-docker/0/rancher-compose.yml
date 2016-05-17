@@ -17,5 +17,29 @@
       label: "Pad Slug"
       description: |
         "The Slug for the Pad to run in this Socket"
+    - variable: padName
+      type: string
+      required: true
+      label: "Pad Name"
+      description: |
+        "Pad Name"
+    - variable: greet
+      type: string
+      required: true
+      label: "Greet"
+      description: |
+        ""
+    - variable: owner
+      type: string
+      required: true
+      label: "Owner Email Address"
+      description: |
+        ""
+    - variable: mpKey
+      type: string
+      required: true
+      label: "Musiqpad API Key"
+      description: |
+        ""
 mqp-docker:
   scale: 1
