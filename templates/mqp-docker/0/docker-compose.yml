@@ -1,2 +1,10 @@
 mqp-docker:
   image: thebanhammer/mqp-docker:latest
+  ports:
+    - ${port}:20808
+  environment:
+    - slug=${slug}
+    - padName=Test
+    - greet=Test
+    - owner=test@test.com
+    - mpKey=
