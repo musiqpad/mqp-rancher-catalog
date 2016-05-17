@@ -1,0 +1,19 @@
+.catalog:
+  name: "Musiqpad Socket Docker"
+  version: 0.1
+  description: |
+    A Docker Container for Musiqpad Socket Server
+  uuid: mqp-0
+  questions:
+    - variable: port
+      type: int
+      required: true
+      label: "External Port"
+      description: |
+        "The external port to expose the socket on"
+    - variable: slug
+      type: string
+      required: true
+      label: "Pad Slug"
+      description: |
+        "The Slug for the Pad to run in this Socket"

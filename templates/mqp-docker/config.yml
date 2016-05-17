@@ -1,0 +1,5 @@
+name: Musiqpad Socket Docker
+description: |
+    A Docker Container for Musiqpad Socket Server
+version: 0.1
+category: Applications
