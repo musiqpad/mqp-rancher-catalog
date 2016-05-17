@@ -4,7 +4,7 @@ mqp-docker:
     - ${port}:20808
   environment:
     - slug=${slug}
-    - padName=Test
-    - greet=Test
-    - owner=test@test.com
-    - mpKey=
+    - padName=${padName}
+    - greet=${greet}
+    - owner=${owner}
+    - mpKey=${mpKey}
