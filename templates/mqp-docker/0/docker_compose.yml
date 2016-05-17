@@ -1,2 +1,0 @@
-mqp-docker:
-  image: thebanhammer/mqp-docker:latest
