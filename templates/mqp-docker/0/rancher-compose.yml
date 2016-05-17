@@ -17,3 +17,5 @@
       label: "Pad Slug"
       description: |
         "The Slug for the Pad to run in this Socket"
+mqp-docker:
+  scale: 1
