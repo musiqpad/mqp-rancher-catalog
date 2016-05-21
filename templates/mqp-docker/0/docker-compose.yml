@@ -8,3 +8,6 @@ mqp-docker:
     - greet=${greet}
     - owner=${owner}
     - mpKey=${mpKey}
+    - NPM_CONFIG_LOGLEVEL=info
+    - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    - NODE_VERSION=4.2.4
