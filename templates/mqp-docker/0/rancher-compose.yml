@@ -8,9 +8,9 @@
     - variable: port
       type: int
       required: true
-      label: "External Port"
+      label: "IP:External Port"
       description: |
-        "The external port to expose the socket on"
+        "The external IP and Port to expose the socket on"
     - variable: slug
       type: string
       required: true
